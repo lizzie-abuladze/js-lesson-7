@@ -1,0 +1,103 @@
+body {
+  position: relative;
+  background-color: #5a060659;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 500px;
+  background-color: #490000;
+  padding: 30px;
+  box-shadow: 0 0 20px #0000005b;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #ffffff;
+  font-family: "Oleo Script", system-ui;
+}
+
+.form-el {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-el {
+  width: 70%;
+  padding: 15px;
+  font-size: 24px;
+  border: 1px solid #5a060659;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn-el {
+  background-color: #ffc3c359;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.btn-el:hover {
+  background-color: #c0949459;
+}
+
+.ul-el {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.ul-el li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 24px;
+  box-shadow: 0 2px 5px #0000001a;
+}
+
+.ul-el li i {
+  cursor: pointer;
+  color: #722b2b;
+  font-size: 24px;
+}
+
+.ul-el li i:hover {
+  color: #180a0a;
+}
+
+.clear-all {
+  background-color: #643939;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.clear-all:hover {
+  background-color: #5c0000;
+}
+
+
